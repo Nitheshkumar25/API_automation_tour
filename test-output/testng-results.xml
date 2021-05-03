@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1374" started-at="2021-03-18T01:06:22 IST" finished-at="2021-03-18T01:06:24 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1374" started-at="2021-03-18T01:06:22 IST" finished-at="2021-03-18T01:06:24 IST">
+      <class name="JsonPathExamples.JsonPathNonExistence">
+        <test-method status="PASS" signature="jsonPathDemo1()[pri:0, instance:JsonPathExamples.JsonPathNonExistence@7494e528]" name="jsonPathDemo1" duration-ms="1303" started-at="2021-03-18T01:06:22 IST" finished-at="2021-03-18T01:06:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jsonPathDemo1 -->
+      </class> <!-- JsonPathExamples.JsonPathNonExistence -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
