@@ -3,8 +3,8 @@
 <suite name="Suite" parallel="classes" thread-count="2">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="DataShare.TestModuleTwo"/>
-      <class name="DataShare.TestModuleOne"/>
+      <class name="DataShare.TestModuleTwoWithThreadLocalDatamap"/>
+      <class name="DataShare.TestModuleOneWithThreadLocalDataMap"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

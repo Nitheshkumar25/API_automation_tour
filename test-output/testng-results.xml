@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8335" started-at="2021-07-22T23:49:57 IST" finished-at="2021-07-22T23:50:05 IST">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="6992" started-at="2021-07-22T23:49:57 IST" finished-at="2021-07-22T23:50:04 IST">
+      <class name="DataShare.CreateBookingTest2">
+        <test-method status="PASS" signature="createBooking(org.testng.ITestContext)[pri:0, instance:DataShare.CreateBookingTest2@396f6598]" name="createBooking" duration-ms="6929" started-at="2021-07-22T23:49:57 IST" finished-at="2021-07-22T23:50:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@954b04f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBooking -->
+      </class> <!-- DataShare.CreateBookingTest2 -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="1236" started-at="2021-07-22T23:50:04 IST" finished-at="2021-07-22T23:50:05 IST">
+      <class name="DataShare.GetBookingDetails2">
+        <test-method status="PASS" signature="getBooking(org.testng.ITestContext)[pri:0, instance:DataShare.GetBookingDetails2@33c7e1bb]" name="getBooking" duration-ms="1225" started-at="2021-07-22T23:50:04 IST" finished-at="2021-07-22T23:50:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@773dab28]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBooking -->
+      </class> <!-- DataShare.GetBookingDetails2 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

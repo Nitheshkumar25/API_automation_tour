@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test thread-count="2" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="DataShare.TestModuleTwo">
+        <methods>
+          <include name="createBooking"/>
+          <include name="retrieveBooking"/>
+        </methods>
+      </class> <!-- DataShare.TestModuleTwo -->
+      <class name="DataShare.TestModuleOne">
+        <methods>
+          <include name="retrieveBooking"/>
+          <include name="createBooking"/>
+        </methods>
+      </class> <!-- DataShare.TestModuleOne -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
